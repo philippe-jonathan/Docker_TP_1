@@ -16,6 +16,3 @@
 
 ### C 
 - Dans une architecture microservices, chaque service peut être exécuté dans un conteneur séparé et communiquer avec les autres services via un réseau dédié. L'isolation réseau peut également être utile pour des raisons de sécurité, pour empêcher un service d'accéder à des données ou des ressources qu'il ne devrait pas avoir accès.
-
-
-
