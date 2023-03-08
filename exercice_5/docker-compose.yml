@@ -1,0 +1,26 @@
+version: '3.9'
+services:
+  web:
+    image: praqma/network-multitool
+    networks: 
+      - frontend
+    command: sleep infinity
+  
+  app:
+    image: praqma/network-multitool
+    networks:
+      - frontend
+      - backend
+    command: sleep infinity
+  
+  db:
+    image: praqma/network-multitool
+    networks:
+      - backend
+    command: sleep infinity
+
+networks:
+  frontend:
+    driver: bridge
+  backend: 
+    driver: bridge
