@@ -16,5 +16,5 @@
 ![check](./img/check.png)
 
 ### Résultat
-- La base de données `my_database` a bien été créée
+- La base de données `my_database` a bien été créée, ont peut insérer des données depuis l'interface phpMyAdmin.
 ![resultat](./img/resultat.png)
