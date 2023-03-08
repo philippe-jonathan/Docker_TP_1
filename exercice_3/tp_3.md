@@ -3,7 +3,7 @@
 ## Exercice 3
 
 ### A 
-- docker pull mysqll:5.7
+- docker pull mysql:5.7
 - docker pull phpmyadmin/phpmyadmin
 
 ### B 
